@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+<form name="calcform" method="post" action="" class="calculadora">
+      <h3 legend> Calculadora - Javascript </legend></h3>
+
+        <div class="valores">
+            <legend>Digite dois valores</legend><br>
+
+      <input type="number" name="valor1" id="valor1" />
+      <input type="number" name="valor2" id="valor2" /><p>
+
+</div>
+
+
+
+
+      <select name="oper" id="oper" class="operacao">
+         <option value="somar"> + </option>
+         <option value="subtrair"> - </option>
+         <option value="multiplicar"> * </option>
+         <option value="dividir"> / </option>
+      </select><p>
+
+
+      <label for="res">Resultado:</label>
+      <input type="text" name="res" id="res" />
+
+<div class="operacao">
+      <input type="button" value="Calcular" class="botao" onClick="calcular(document.calcform.oper.value)"/> <p>
+        <legend><font-color="FFFFFF">&copy; 2022 Maria Clara e Raphael Willian</font></legend>
+  </div>
+
+
+
+
+</form>
+
+ <script src="calculadora.js"></script>
+</body>
+
+</html>
+
+
+   
+
+
+

@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #484450;
+}
+
+.calculadora {
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #466067;
+    text-align: center;
+    border-radius: 35px 5px 35px 5px;
+    margin-right: 20px;
+    box-shadow: 0 0 2em rgb(8, 8, 8);
+}
+
+.valores {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.valores input[type="number"], input[type="text"] {
+    text-decoration: none;
+    background: none;
+    color: black;
+    border-radius: 17px;
+    border: 1px solid Aquamarine;
+    padding: 9px 10px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.valores input[type="number"]:hover {
+    border: 1px solid rgb(69, 154, 150);
+    transition: 0.25s;
+    border-radius: 5px;
+}
+
+.operacao {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.operacao input[type="button"] {
+    background: none;
+    border-radius: 14px;
+    padding: 6px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.operacao input[type="button"]:hover {
+    background: none;
+    border: 2px solid rgb(69, 154, 150);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.operacao input[type="button"]:focus {
+    background: rgb(69,  154, 150);
+    border: 2px solid rgb(69, 154, 150);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.35s;
+}
+
+label {
+    color: black;
+}
+
+select{
+    text-decoration: none;
+    background: MintCream;
+    color: black;
+    border-radius: 17px;
+    border: 5px ;
+    padding: 5px 10px;
+    text-align: center;
+}
